@@ -15,10 +15,5 @@ jobs:
         steps:
             - name: Show OS
               run:  |
-<<<<<<< HEAD
                 echo "This job is running on an Ubuntu runner."
                 echo "Runner OS is ${{ runner.os }}"
-=======
-                echo "This job is running on an windows runner."
-                echo "Runner OS is ${{ runner.os }}"
->>>>>>> 88558e3 (adding windows as a test)
